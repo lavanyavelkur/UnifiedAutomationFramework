@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "com.android.calculator2:id/digit_8[@text='8']"
+}

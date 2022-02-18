@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642686162201' stop='1642686177007'>
+    <name>Account Feature</name>
+    <title>Account Feature</title>
+    <test-cases>
+        <test-case start='1642686162201' status='broken' stop='1642686177003'>
+            <name>should set value for a certain element</name>
+            <title>should set value for a certain element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-8.1.0'/>
+            </parameters>
+            <steps>
+                <step start='1642686162208' status='passed' stop='1642686163580'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2ede1ea3-c9d0-444a-be70-ed3261798886-attachment.json' type='application/json' size='80'/>
+                        <attachment title='Response' source='6bb71c47-24c9-471d-a96c-0176cbc262c4-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642686163597' status='passed' stop='1642686163631'>
+                    <name>POST /session/:sessionId/element/00000000-0000-0007-ffff-ffff00000000/clear</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-0007-ffff-ffff00000000/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1642686163641' status='passed' stop='1642686164786'>
+                    <name>POST /session/:sessionId/element/00000000-0000-0007-ffff-ffff00000000/value</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-0007-ffff-ffff00000000/value</title>
+                    <attachments>
+                        <attachment title='Request' source='d5f4e18c-cc1d-4134-bd68-a4a8f445e144-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642686164787' status='passed' stop='1642686164855'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='27dc6a23-162d-4183-ac15-44568ca44fc6-attachment.json' type='application/json' size='80'/>
+                        <attachment title='Response' source='2c82709b-a9b3-4bdc-9069-11f444055348-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642686164866' status='passed' stop='1642686165335'>
+                    <name>POST /session/:sessionId/element/00000000-0000-0007-ffff-ffff0000000a/clear</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-0007-ffff-ffff0000000a/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1642686165336' status='passed' stop='1642686166408'>
+                    <name>POST /session/:sessionId/element/00000000-0000-0007-ffff-ffff0000000a/value</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-0007-ffff-ffff0000000a/value</title>
+                    <attachments>
+                        <attachment title='Request' source='85f8531e-bc17-41f6-b1af-505b2431972c-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642686166408' status='passed' stop='1642686166486'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c6e081be-80b0-4be2-abbe-cf707bc37f86-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='3d429327-b030-4c20-aa7d-2bd5807c0c3c-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1642686166495' status='passed' stop='1642686166917'>
+                    <name>POST /session/:sessionId/element/00000000-0000-0007-ffff-ffff00000009/click</name>
+                    <title>POST /session/:sessionId/element/00000000-0000-0007-ffff-ffff00000009/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1642686176933' status='broken' stop='1642686177002'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cb849b6a-b2b5-49ce-a79e-2d111b7f0aef-attachment.json' type='application/json' size='76'/>
+                    </attachments>
+                    <steps>
+                        <step start='1642686176942' status='broken' stop='1642686177002'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1642686176999' status='broken' stop='1642686177002'>
+                                    <name>GET /session/:sessionId/screenshot</name>
+                                    <title>GET /session/:sessionId/screenshot</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details</message>
+                <stack-trace>UnknownError: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+                    at UIA2Proxy.command (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:274:13)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:85:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

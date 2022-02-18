@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.calculator2:id/op_add[@text='+']"
+}

@@ -1,0 +1,7 @@
+{"startDisplayTime":"02/02/2022, 5:10:42 pm","instanceID":"instb5e4ec573a167f11d9453e77c1189222"}
+{"name":"Startup","brName":"Chrome","id":"a2a4e1e54f28e351e0f78e93ea4781f4","instanceId":"instb5e4ec573a167f11d9453e77c1189222","startTime":1643793042616,"endTime":1643793042616,"startDisplayTime":"02/02/2022, 5:10:42 pm","duration":0,"isTestPassed":true}
+{"startDisplayTime":"02/02/2022, 5:12:46 pm","instanceID":"instcec83d4056da9dc96a9e6c5f93ac5b30"}
+{"name":"Startup","brName":"Chrome","id":"bb10e5b7f08fa5f5e41b93dbead43391","instanceId":"instcec83d4056da9dc96a9e6c5f93ac5b30","startTime":1643793166708,"endTime":1643793166708,"startDisplayTime":"02/02/2022, 5:12:46 pm","duration":0,"isTestPassed":false}
+{"startDisplayTime":"02/02/2022, 5:13:34 pm","instanceID":"inst0aa1c86dc49d697bdf000b21365c2cbb"}
+{"name":"Startup","brName":"Chrome","id":"1ac4c6561319eef6444dab5913c32b0b","instanceId":"inst0aa1c86dc49d697bdf000b21365c2cbb","startTime":1643793214335,"endTime":1643793214336,"startDisplayTime":"02/02/2022, 5:13:34 pm","duration":1,"isTestPassed":false}
+{"startDisplayTime":"02/02/2022, 5:16:18 pm","instanceID":"inst4fbbd8008d420d16cd27c83d87c3d7dd"}

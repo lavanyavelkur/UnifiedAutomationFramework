@@ -1,0 +1,9 @@
+config:
+  target: 'https://httpbin.org/'
+  phases:
+    - duration: 60
+      arrivalRate: 20
+scenarios:
+  - flow:
+    - get:
+        url: "/get"

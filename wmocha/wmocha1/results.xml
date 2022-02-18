@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Calculator Feature" timestamp="2022-02-01T21:41:50" time="3.096" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Calculator Feature"/>
+      <property name="capabilities" value="emulator-5554.android.8_1_0"/>
+      <property name="file" value=".\Test.js"/>
+    </properties>
+    <testcase classname="emulator-5554.android.8_1_0.Calculator_Feature" name="Verify user able to add" time="3.056">
+      <system-out><![CDATA[
+COMMAND: POST /session/03194b23-33a6-4dbd-953d-2b10f75a963d/element - {"using":"xpath","value":"//android.widget.Button[@text=7]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text=7]"}
+COMMAND: POST /session/03194b23-33a6-4dbd-953d-2b10f75a963d/element/00000000-0000-00b7-ffff-ffff00000022/click - {}
+RESULT: {}
+COMMAND: POST /session/03194b23-33a6-4dbd-953d-2b10f75a963d/element - {"using":"xpath","value":"//android.widget.Button[@text='+']"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text='+']"}
+COMMAND: POST /session/03194b23-33a6-4dbd-953d-2b10f75a963d/element/00000000-0000-00b7-ffff-ffff00000032/click - {}
+RESULT: {}
+COMMAND: POST /session/03194b23-33a6-4dbd-953d-2b10f75a963d/element - {"using":"xpath","value":"//android.widget.Button[@text='8']"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@text='8']"}
+COMMAND: POST /session/03194b23-33a6-4dbd-953d-2b10f75a963d/element/00000000-0000-00b7-ffff-ffff00000023/click - {}
+RESULT: {}
+COMMAND: POST /session/03194b23-33a6-4dbd-953d-2b10f75a963d/element - {"using":"class name","value":"android.widget.Button[@text='=']"}
+COMMAND: DELETE /session/03194b23-33a6-4dbd-953d-2b10f75a963d - {}
+RESULT: {"using":"class name","value":"android.widget.Button[@text='=']"}
+COMMAND: POST /session/03194b23-33a6-4dbd-953d-2b10f75a963d/elements - {"using":"class name","value":"android.widget.Button[@text='=']"}
+COMMAND: POST /session/03194b23-33a6-4dbd-953d-2b10f75a963d/elements - {"using":"class name","value":"android.widget.Button[@text='=']"}
+COMMAND: POST /session/03194b23-33a6-4dbd-953d-2b10f75a963d/elements - {"using":"class name","value":"android.widget.Button[@text='=']"}
+COMMAND: POST /session/03194b23-33a6-4dbd-953d-2b10f75a963d/elements - {"using":"class name","value":"android.widget.Button[@text='=']"}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

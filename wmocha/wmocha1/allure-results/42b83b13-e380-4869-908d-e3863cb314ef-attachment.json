@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//com.android.calculator2:id/digit_7[@text=7]"
+}

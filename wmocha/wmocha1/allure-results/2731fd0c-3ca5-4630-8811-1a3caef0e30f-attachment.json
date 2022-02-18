@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.widget.SeekBar[@text='0.0']"
+}
